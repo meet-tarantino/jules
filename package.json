@@ -1,0 +1,29 @@
+{
+  "name": "jules",
+  "version": "1.0.0",
+  "description": "jules =====",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meet-tarantino/jules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meet-tarantino/jules/issues"
+  },
+  "homepage": "https://github.com/meet-tarantino/jules#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bunyan": "^1.8.1",
+    "express": "^4.14.0",
+    "express-bunyan-logger": "^1.3.0",
+    "pug": "^2.0.0-beta4",
+    "rc": "^1.1.6",
+    "request": "^2.73.0",
+    "request-promise": "^4.0.1"
+  }
+}

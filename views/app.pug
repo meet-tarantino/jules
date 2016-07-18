@@ -1,0 +1,20 @@
+div.container
+    div.row
+        div.col-sm-12
+            div.page-header
+                h1 Movies!
+    div.row
+        div.col-sm-6
+            div.list-group.movie-list
+        div.col-sm-6
+            h3 Add Movie
+            hr
+            form
+                div.form-group
+                    label(for='movieTitle') Title
+                    input(type='text', id='movieTitle', placeHolder='Major League 2').form-control
+                div.form-group
+                    label(for='movieDescription') Description
+                    textarea(rows='5', id='movieDescription', placeHolder="The Indians are now a World Series contender. But last year's hunger is now replaced with complacency, and bad decisions by the new owner threaten to tear the team apart.").form-control
+                div.form-group
+                    button(type='submit').btn.btn-default.save-movie Submit
